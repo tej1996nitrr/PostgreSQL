@@ -15,3 +15,9 @@ FROM
     INSERT INTO link (url, name)
     VALUES
         ('http://www.oreilly.com','O''Reilly Media');
+
+INSERT INTO link (url, name)
+VALUES
+ ('http://www.google.com','Google'),
+ ('http://www.yahoo.com','Yahoo'),
+ ('http://www.bing.com','Bing');
