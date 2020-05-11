@@ -30,3 +30,7 @@ SET DEFAULT CURRENT_DATE;
 INSERT INTO link (url, name, last_update)
 VALUES
 	('http://www.facebook.com','Facebook','2013-06-01');
+
+INSERT INTO link (url, name, last_update)
+VALUES
+	('https://www.tumblr.com/','Tumblr',DEFAULT);
