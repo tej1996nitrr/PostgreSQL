@@ -34,3 +34,14 @@ VALUES
 INSERT INTO link (url, name, last_update)
 VALUES
 	('https://www.tumblr.com/','Tumblr',DEFAULT);
+
+
+CREATE TABLE link_tmp (LIKE link);
+
+INSERT INTO link_tmp 
+SELECT
+	*
+FROM
+	link
+WHERE
+	last_update IS NOT NULL;
