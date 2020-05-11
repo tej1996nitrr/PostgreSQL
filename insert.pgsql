@@ -21,3 +21,12 @@ VALUES
  ('http://www.google.com','Google'),
  ('http://www.yahoo.com','Yahoo'),
  ('http://www.bing.com','Bing');
+
+ALTER TABLE link ADD COLUMN last_update DATE;
+
+ALTER TABLE link ALTER COLUMN last_update
+SET DEFAULT CURRENT_DATE;
+
+INSERT INTO link (url, name, last_update)
+VALUES
+	('http://www.facebook.com','Facebook','2013-06-01');
