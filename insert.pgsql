@@ -45,3 +45,12 @@ FROM
 	link
 WHERE
 	last_update IS NOT NULL;
+
+SELECT
+	*
+FROM
+	link_tmp;
+
+INSERT INTO link (url, NAME, last_update)
+VALUES('http://www.postgresql.org','PostgreSQL',DEFAULT) 
+RETURNING id;
