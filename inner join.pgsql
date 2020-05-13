@@ -49,4 +49,5 @@ amount,
 payment_date
 FROM customer
 INNER JOIN payment ON payment.customer_id=customer.customer_id
-INNER JOIN staff ON payment.staff_id= staff.staff_id
+INNER JOIN staff ON payment.staff_id= staff.staff_id;
+
