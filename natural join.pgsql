@@ -1,6 +1,7 @@
 -- creates an implicit join based on the same column names in the joined tables
 -- A natural join can be an inner join, left join, or right join.
 -- default=inner join The convenience of the NATURAL JOIN is that it does not require you to specify the join clause because it uses an implicit join clause based on the common column.
+
 CREATE TABLE categories(category_id serial PRIMARY KEY,
                          category_name VARCHAR(255) NOT NULL);
 CREATE TABLE products (
