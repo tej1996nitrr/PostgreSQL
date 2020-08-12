@@ -13,5 +13,5 @@ The postgresql database of dvdrentals was used as a sample for this repo.
 3. Click the + symbol on top to connect to a server or connect local DB.
 4. Fill in the hostname , username ,password to make connection.
 5. Once connection is done, create a file with .pgsql extension.
-6. Select the table from the postgreSQL explorer for writing queries in the created file.
+6. Select the table from the postgreSQL explorer for writing queries in the created file
 
