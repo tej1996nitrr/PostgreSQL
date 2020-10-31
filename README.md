@@ -15,3 +15,9 @@ The postgresql database of dvdrentals was used as a sample for this repo.
 5. Once connection is done, create a file with .pgsql extension.
 6. Select the table from the postgreSQL explorer for writing queries in the created file
 
+## Loading data from .tar file:
+1. In cmd: psql
+2. postgres=# CREATE DATABASE dvdrentals;
+3. postgres=# exit
+4. pg_restore -U postgres -d dvdrentals C:\sampledb\dvdrental.tar
+
